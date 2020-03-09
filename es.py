@@ -6,8 +6,10 @@ import sys
 def counte():
     count = 0
     vocal=["e"]
-    if contents == vocal:
-        count+=1
+    for i in vocal:
+        for j in contents:
+            if (i==j):
+                count+=1
     print (count)
 
 
